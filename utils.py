@@ -1,5 +1,4 @@
 from datetime import datetime
-from pprint import pprint
 
 
 def execute_sql_script(cur, script_file) -> None:

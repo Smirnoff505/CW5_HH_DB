@@ -1,12 +1,9 @@
-import json
-from pprint import pprint
-
 import psycopg2
 
 from config.config import config
 from config.const import COMPANY_DICT
 from hh_vacancies import HeadHunterAPI
-from utils import execute_sql_script, insert_employers_db, insert_vacancies_db, save_data_to_database
+from utils import execute_sql_script, save_data_to_database
 
 
 def main():
